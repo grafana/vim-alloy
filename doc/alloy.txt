@@ -1,0 +1,22 @@
+*alloy.txt*   Vim support for Grafana Alloy configuration files
+
+Author:  Grafana Labs <https://github.com/grafana>
+License: Apache 2 license
+Repo:    https://github.com/grafana/vim-alloy
+
+                                       Type |gO| to see the table of contents.
+==============================================================================
+COMMANDS                                                      *alloy-commands*
+
+                                                                   *:AlloyFmt*
+`:AlloyFmt`             Invoke `alloy fmt` on a current buffer.
+
+==============================================================================
+SETTINGS                                                      *alloy-settings*
+
+*g:alloy_fmt_on_save*
+  Allow vim-alloy to automatically format `*.alloy` files with `alloy fmt`.
+  Fails if `alloy` is not available on $PATH.
+  Default: 1
+
+vim:tw=78:et:ft=help:norl:
